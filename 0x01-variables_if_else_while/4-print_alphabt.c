@@ -15,9 +15,7 @@ char cha = 'a';
 while (cha <= 'z')
 {
 	if (cha != 'e' && cha != 'q')
-	{	
 		putchar(cha);
-	}
     cha++;
 }
 putchar('\n');
