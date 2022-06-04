@@ -15,12 +15,12 @@ char chA = 'A';
 
 while (cha <= 'z')
 {
-        putchar( cha);
+        putchar(cha);
         cha++;
     }
-while (cha <= 'Z') 
+while (chA <= 'Z') 
 {
-	putchar( chA);
+	putchar(chA);
 	chA++;
 }
 putchar('\n');
