@@ -1,13 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
-    * betty style doc for function main goes there
-*/
+
+/**
+ * main - to tell if a random number is either - or +
+ *
+ * n is the random integer
+ *
+ * Return: the integer
+ */
 int main(void)
 {
-   for(int i=0;i<=9;i++)
-   {
-       printf("%d",i);
-   }
-   return(0);
+for (int i = 0 ; i <= 9 ; i++)
+    printf("%d",i);
+printf("\n");
+return (0);
 }

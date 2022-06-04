@@ -1,15 +1,21 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
-    * betty style doc for function main goes there
-*/
+
+/**
+ * main - to tell if a random number is either - or +
+ *
+ * n is the random integer
+ *
+ * Return: the integer
+ */
 int main(void)
 {
-    char cha='z';
-    while(cha>='a')
-    {
-        putchar("%c", cha);
-        cha--;
-    }
-    return (0);
+char cha = 'z';
+while (cha >= 'a')
+{
+    putchar(cha);
+    cha--;
+}
+putchar('\n');
+return (0);
 }
