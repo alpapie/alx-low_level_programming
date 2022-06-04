@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* 
 *cette fonction retourn 
-*une phrase
+*une phrase 
 */  
 int main(void)
 {
