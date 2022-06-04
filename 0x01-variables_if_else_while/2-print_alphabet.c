@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
-* betty style doc for function main goes there
-*/
+/**
+ * main - to tell if a random number is either - or +
+ *
+ * n is the random integer
+ *
+ * Return: the integer
+ */
 int main(void)
 {
 char cha = 'a';
