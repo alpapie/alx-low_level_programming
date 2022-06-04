@@ -15,13 +15,13 @@ char chA = 'A';
 
 while (cha <= 'z')
 {
-        putchar(cha);
-        cha++;
-    }
+	putchar(cha);
+	cha++;
+}
 while (chA <= 'Z')
 {
-	    putchar(chA);
-	    chA++;
+	putchar(chA);
+	chA++;
 }
 putchar('\n');
 return (0);
