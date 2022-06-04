@@ -9,13 +9,16 @@ int main(void)
 char cha = 'a';
 char chA = 'A';
 
-while(cha <= 'z' && chA <= 'Z')
+while(cha <= 'z')
 {
-	putchar( cha);
-        putchar( chA);
+        putchar( cha);
         cha++;
-        chA++;
     }
+while(cha <= 'z') 
+{
+	putchar( chA);
+	chA++;
+}
 putchar('\n');
 return (0);
 }
