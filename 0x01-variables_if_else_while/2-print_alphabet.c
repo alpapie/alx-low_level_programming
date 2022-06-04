@@ -12,5 +12,6 @@ while (cha <= 'z')
 	putchar(cha);
 	cha++;
 }
+putchar('\n');
 return (0);
 }
