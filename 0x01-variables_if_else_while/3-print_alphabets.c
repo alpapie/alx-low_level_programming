@@ -2,19 +2,23 @@
 #include <stdio.h>
 
 /**
-* betty style doc for function main goes there
-*/
+ * main - to tell if a random number is either - or +
+ *
+ * n is the random integer
+ *
+ * Return: the integer
+ */
 int main(void)
 {
 char cha = 'a';
 char chA = 'A';
 
-while(cha <= 'z')
+while (cha <= 'z')
 {
         putchar( cha);
         cha++;
     }
-while(cha <= 'Z') 
+while (cha <= 'Z') 
 {
 	putchar( chA);
 	chA++;
