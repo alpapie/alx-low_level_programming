@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* cette fonction retourn 
+/* 
+*cette fonction retourn 
 *une phrase
 */  
 int main(void)
