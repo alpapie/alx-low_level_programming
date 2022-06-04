@@ -6,18 +6,20 @@
 *jsjsjdjjjdjjsjd
 * betty style doc for function main goes there 
 */
+Last digit of n is 8  and is greater than 5
+Last digit of 98 is 8 and is greater than 5
 int main(void)
 {
 int n;
-
+int nlast
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-n=n%10;
-if(n > 5)
-	printf("Last digit of n is %d  and is greater than 5\n", n);
-else if (n == 0)
-        printf("Last digit of n is %d and is 0\n", n);
-else if (n < 6 && n != 0)
-        printf("Last digit of n is %d and is less than 6 and not 0n", n);
+nlast=n%10;
+if(nlast > 5)
+	printf("Last digit of %d is %d  and is greater than 5\n",nlast, n);
+else if (nlast == 0)
+        printf("Last digit of %d is %d and is 0\n",nlast, n);
+else if (nlast < 6 && last != 0)
+        printf("Last digit of %d is %d and is less than 6 and not 0n",nlast, n);
 return (0);
 }
