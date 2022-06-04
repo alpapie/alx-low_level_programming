@@ -11,7 +11,8 @@
 int main(void)
 {
 int i = 0 ;
-for (; i <= 9;i++)
+
+for (; i <= 9 ; i++)
 {
     putchar(i);
 }  
