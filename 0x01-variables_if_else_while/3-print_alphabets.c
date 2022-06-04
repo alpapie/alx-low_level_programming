@@ -18,10 +18,10 @@ while (cha <= 'z')
         putchar(cha);
         cha++;
     }
-while (chA <= 'Z') 
+while (chA <= 'Z')
 {
-	putchar(chA);
-	chA++;
+	    putchar(chA);
+	    chA++;
 }
 putchar('\n');
 return (0);
