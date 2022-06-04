@@ -6,8 +6,6 @@
 *jsjsjdjjjdjjsjd
 * betty style doc for function main goes there 
 */
-Last digit of n is 8  and is greater than 5
-Last digit of 98 is 8 and is greater than 5
 int main(void)
 {
 int n;
