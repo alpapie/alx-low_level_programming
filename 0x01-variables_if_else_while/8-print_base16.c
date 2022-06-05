@@ -10,14 +10,13 @@
  */
 int main(void)
 {
-int i = 0;
-char cha = 'a';
+char i ;
 
-for (; i <= 9 ; i++)
+for (i='0'; i <= 9 ; i++)
 {
 	putchar(i);
 }
-for (; cha <= 'f' ; cha++)
+for (i='a'; cha <= 'f' ; cha++)
 {
 	putchar(i);
 }
