@@ -15,14 +15,14 @@ int number;
 int number0='0';
 int number1;
 
-for (number = '0'; number <= '8'; number++)
+for (number = '0'; number <= '9'; number++)
 {
 		number1=number0+1;
         while ( number1 <= '9')
 		{
 			putchar(number);
 			putchar(number1);
-			if (number == '9' && number1 == '9')
+			if (number == '8' && number1 == '9')
 			{
 				break;
 			}
