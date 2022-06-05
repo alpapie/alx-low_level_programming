@@ -21,26 +21,26 @@ for (number = '0'; number <= '9'; number++)
 	number1 = number0 + 1;
 	while (number1 <= '9')
 	{
-       	number2 = number1 + 1;
-        while (number2 <= '9')
-        {
-            putchar(number);
-            putchar(number1);
-            putchar(number2);
-            if (number == '7' && number1 == '8' && number2 == '9')
-            {
-                break;
-            }
-            else
-            {
-                putchar(',');
-                putchar(' ');
-            }
-            number2++;
-        }
-	number1++;
+		number2 = number1 + 1;
+		while (number2 <= '9')
+		{
+			putchar(number);
+			putchar(number1);
+			putchar(number2);
+			if (number == '7' && number1 == '8' && number2 == '9')
+			{
+				break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			number2++;
+		}
+		number1++;
 	}
-number0++;
+	number0++;
 }
 putchar('\n');
 return (0);
