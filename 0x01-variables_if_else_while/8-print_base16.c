@@ -17,7 +17,7 @@ for (; i <= 9 ; i++)
 {
 	putchar(i);
 }
-for (; cha <= 'f' ; ch++)
+for (; cha <= 'f' ; cha++)
 {
 	putchar(i);
 }
