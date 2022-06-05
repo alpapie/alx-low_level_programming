@@ -17,22 +17,22 @@ int number1;
 
 for (number = '0'; number <= '9'; number++)
 {
-		number1 = number0 + 1;
-        while (number1 <= '9')
+	number1 = number0 + 1;
+	while (number1 <= '9')
+	{
+		putchar(number);
+		putchar(number1);
+		if (number == '8' && number1 == '9')
 		{
-			putchar(number);
-			putchar(number1);
-			if (number == '8' && number1 == '9')
-			{
-				break;
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
-			}
-            number1++;
+			break;
 		}
+		else
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	number1++;
+	}
         number0++;
 }
 putchar('\n');
