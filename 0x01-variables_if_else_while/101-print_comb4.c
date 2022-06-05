@@ -22,7 +22,7 @@ for (number = '0'; number <= '9'; number++)
 	while (number1 <= '9')
 	{
         number2 = number1 + 1;
-        while (number2 <= 9)
+        while (number2 <= '9')
         {
             putchar(number);
             putchar(number1);
