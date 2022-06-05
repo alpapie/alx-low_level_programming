@@ -15,7 +15,7 @@ int number;
 int number0='0';
 int number1;
 
-for (number = '0'; number <= '9'; number++)
+for (number = '0'; number <= '8'; number++)
 {
 		number1=number0+1;
         while ( number1 <= '9')
