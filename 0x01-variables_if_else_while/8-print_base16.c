@@ -22,4 +22,5 @@ for (; cha <= 'f' ; cha++)
 	putchar(i);
 }
 printf("\n");
+return (0)
 }
