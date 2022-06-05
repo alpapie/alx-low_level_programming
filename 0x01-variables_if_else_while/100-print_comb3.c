@@ -12,6 +12,7 @@
 int main(void)
 {
 int number;
+int number1;
 
 for (number = '0'; number <= '9'; number++)
 {
