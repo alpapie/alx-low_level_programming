@@ -12,11 +12,12 @@
 int main(void)
 {
 int number;
-int number1;
+int number1=0;
 
 for (number = '0'; number <= '9'; number++)
 {
-		for (number1 = '0'; number1 <= '9'; number1++)
+		number1++;
+        while ( number1 <= '9')
 		{
 			putchar(number);
 			putchar(number1);
@@ -29,6 +30,7 @@ for (number = '0'; number <= '9'; number++)
 				putchar(',');
 				putchar(' ');
 			}
+            number1++;
 		}
 }
 putchar('\n');
