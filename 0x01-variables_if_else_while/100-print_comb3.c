@@ -31,9 +31,9 @@ for (number = '0'; number <= '9'; number++)
 			putchar(',');
 			putchar(' ');
 		}
-	number1++;
+	        number1++;
 	}
-        number0++;
+    number0++;
 }
 putchar('\n');
 return (0);
