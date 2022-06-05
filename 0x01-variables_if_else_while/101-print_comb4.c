@@ -27,7 +27,7 @@ for (number = '0'; number <= '9'; number++)
             putchar(number);
             putchar(number1);
             putchar(number2);
-            if (number == '8' && number1 == '9')
+            if (number == '7' && number1 == '8' && number2 == '9')
             {
                 break;
             }
