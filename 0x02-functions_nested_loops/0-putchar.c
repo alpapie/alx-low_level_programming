@@ -15,7 +15,7 @@ int i = 0;
 
 for (; i < lenths ; i++)
 {
-	_putchar( txt[i]);
+	_putchar(txt[i]);
 }
 _putchar('\n');
 return (0);
