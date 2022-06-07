@@ -13,7 +13,7 @@ char *txt = "_putchar";
 int lenths = 8;
 int i = 0;
 
-for (; i<lenths ; i++)
+for (; i < lenths ; i++)
 {
         _putchar( txt[i]);
 }
