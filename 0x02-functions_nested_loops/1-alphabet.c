@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
+ * print_alphabet - prints all aphabets in lowercase
  *
- * n is the random integer
  *
- * Return: the integer
+ *
  */
 void print_alphabet(void)
 {
