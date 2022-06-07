@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign - a function that
- *
- * prints the sign of a number (-, 0, +) with parameters n
- *
- * reurn:-1 and prints - if n is less than 0
- *
- * and prints 0 if n is 0
- *
- *and prints + if n is greater than 0
+ * print_sign - prints the sign of variable passed
+ * @n: parameter passed in the function
+ * Description:
+ * Return: Always(0) Success
  */
 
 int print_sign(int n)
