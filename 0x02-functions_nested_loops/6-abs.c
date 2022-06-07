@@ -1,16 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
- *
- * n is the random integer
- *
- * Return: the integer
+ *_abs - prints the absolute value of the parameter
+ *@n: parameter passed in the function
+ *Description: the function checks if the parameter is absolute
+ *Return: Always(0) Success
  */
-int main(void)
+
+int _abs(int){
+if(n < 0)
 {
-if()
-return (0);
+	return (-n);
 }
+else
+{
+	return (n);
+ }
