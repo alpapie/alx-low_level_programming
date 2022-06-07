@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - to tell if a random number is either - or +
  *
@@ -6,7 +7,7 @@
  *
  * Return: the integer
  */
-int main(void)
+void print_alphabet(void);
 {
 char cha = 'a';
 
@@ -16,5 +17,4 @@ while (cha <= 'z')
 	cha++;
 }
 _putchar('\n');
-return (0);
 }
