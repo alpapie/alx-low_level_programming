@@ -1,4 +1,5 @@
-#include "_putchar"
+#include "main.h"
+
 /**
  * main - to tell if a random number is either - or +
  *
