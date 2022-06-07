@@ -9,8 +9,7 @@
  *
  * Return: the integer
  */
-int main(void)
+void _putchar(void)
 {
-printf('_putchar')
-return (0);
+printf("_putchar");
 }
