@@ -7,9 +7,9 @@
  *
  * reurn:-1 and prints - if n is less than 0
  *
- * return:0 and prints 0 if n is 0
+ * and prints 0 if n is 0
  *
- * return:1 and prints + if n is greater than 0
+ *and prints + if n is greater than 0
  */
 
 int print_sign(int n)
