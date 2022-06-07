@@ -1,13 +1,9 @@
 #include "main.h"
 
-/**
- * main - to tell if a random number is either - or +
- *
- * n is the random integer
- *
- * for 10 round
- *
- * Return: the integer
+/** 
+ *  print_alphabet_x10 - prints all aphabets in lowercase  
+ *   10X :  
+ *  
  */
 
 void print_alphabet_x10(void)
