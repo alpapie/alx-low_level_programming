@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - to tell if a random number is either - or +
@@ -9,8 +7,17 @@
  *
  * Return: the integer
  */
-int main(void)
-{
 
-return (0);
+void print_alphabet_x10(void);
+{
+    int i = 1
+for(; i <= 10 ; i++)
+{
+    while (cha <= 'z')
+    {
+        _putchar(cha);
+        cha++;
+    }
+}
+_putchar('\n');
 }
