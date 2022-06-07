@@ -1,9 +1,9 @@
 #include "main.h"
 
 /** 
- *print_alphabet_x10 - prints all aphabets in lowercase
+ * print_alphabet_x10 - prints all aphabets in lowercase
  *  
- *10X :  
+ *                              10X 
  *  
  */
 
