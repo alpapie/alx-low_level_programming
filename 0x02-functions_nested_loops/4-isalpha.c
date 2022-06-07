@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks if the parameter is lowercase
+ * _islower - checks if the parameter is lowercase or uppercase
  *@c: character to be checked by function
  * Description:
  * Return: Always(0) Success
