@@ -1,16 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
+*Write a function that checks for lowercase character.
  *
- * n is the random integer
+ *Prototype: int _islower(int c);
+ *Returns 1 if c is lowercase
+ *Returns 0 otherwise
  *
- * Return: the integer
  */
-int main(void)
-{
 
-return (0);
+int _islower(int c)
+{
+if (c >= 97 && c <= 122)
+{
+    return (1);
+}
+else
+{
+    return (0);
+}
 }
