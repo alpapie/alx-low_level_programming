@@ -7,7 +7,7 @@
  *
  * Return: the integer
  */
-void _putchar(void)
+int main(void)
 {
 _putchar("_putchar");
 }
