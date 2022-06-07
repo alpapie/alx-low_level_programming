@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks if the parameter is alphabet
+ * _isalpha - checks if the parameter is alphabet
  *@c: character to be checked by function
  * Description:
  * Return: Always(0) Success
