@@ -1,7 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
+#include "_putchar"
 /**
  * main - to tell if a random number is either - or +
  *
@@ -11,5 +8,5 @@
  */
 void _putchar(void)
 {
-printf("_putchar");
+_putchar("_putchar");
 }
