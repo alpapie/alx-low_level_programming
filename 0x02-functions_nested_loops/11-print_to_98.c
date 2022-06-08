@@ -14,7 +14,7 @@ if (n<=98)
 	while (n<=98)
     {
 		_putchar(n);
-		_putchar(', ');
+		printf(', ');
 		n++;
 	}
 	_putchar('\n');
@@ -24,7 +24,7 @@ else
 	while (n>=2)
 	{
 		_putchar(n);
-		_putchar(', ');
+		printf(', ');
 		 n--;
 	}
 	_putchar('\n');
