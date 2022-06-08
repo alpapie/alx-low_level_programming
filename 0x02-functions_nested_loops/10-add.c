@@ -1,16 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
- *
- * n is the random integer
- *
- * Return: the integer
+ * add- cfunction to add two number
+ *@a @c: two number
+ * Description:
+ * Return: resultat
  */
-int main(void)
-{
 
-return (0);
+int add(int a, int b)
+{
+return (a+b)  
 }
+
