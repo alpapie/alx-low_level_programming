@@ -21,7 +21,7 @@ if (n<=98)
 }
 else
 {
-	while (n>=2)
+	while (n>=98)
 	{
 		printf("%d",n);
 		printf(", ");
