@@ -14,17 +14,17 @@ if (n<=98)
 {
 	while (n<=98)
     {
-		_putchar(n);
+		printf("%d",n);
 		printf(", ");
 		n++;
 	}
-	_putchar('\n');
+	printf('\n');
 }
 else
 {
 	while (n>=2)
 	{
-		_putchar(n);
+		printf("%d",n);
 		printf(", ");
 		 n--;
 	}
