@@ -17,6 +17,6 @@ if (n < 0)
 	n = n * -1;
 }
 last_digit = n % 10;
-printf("%d",last_digit );
+puts(last_digit);
 return (last_digit);
 }
