@@ -28,6 +28,6 @@ else
 		printf(", ");
 		 n--;
 	}
-	_putchar('\n');
+	putchar('\n');;
 }
 }
