@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * add- cfunction to add two number
- *@a @c: two number
- * Description:
- * Return: resultat
+ * add - returns the sum of two parameters
+ * @a: first parameter
+ * @b: second parameter
+ *
+ * Description: sums two numbers
+ * Return: Always (0).
  */
 
 int add(int a, int b)
