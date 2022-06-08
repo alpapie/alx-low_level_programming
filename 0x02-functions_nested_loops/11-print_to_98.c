@@ -24,8 +24,11 @@ else
 	while (n>=98)
 	{
 		printf("%d",n);
-		printf(", ");
-		 n--;
+		if (n != 98)
+		{
+			printf(", ");
+		}
+		n--;
 	}
 	putchar('\n');;
 }
