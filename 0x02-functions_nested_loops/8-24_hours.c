@@ -1,16 +1,32 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
- *
- * n is the random integer
- *
- * Return: the integer
+ * jack_bauer - prints a 24 hour timer
  */
-int main(void)
-{
 
-return (0);
+void jack_bauer(void)
+{
+int hour=0;
+int minute
+
+for (; hour <= 23 ; hour++)
+{
+	if (minute<10)
+	{
+		_putchar("0")
+	}
+    _putchar(minute)
+	_putchar(hour);
+    _putchar(":")
+	minute=0;
+	for (;minute <60 ; minute++)
+	{
+		if (minute<10)
+		{
+			_putchar("0")
+		}
+		_putchar(minute)
+	}
+	_putchar("\n")
+}
 }
