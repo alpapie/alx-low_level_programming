@@ -4,7 +4,7 @@
  * jack_bauer - prints a 24 hour timer
  */
 
-oid jack_bauer(void)
+void jack_bauer(void)
 {
 	int i, j;
 
