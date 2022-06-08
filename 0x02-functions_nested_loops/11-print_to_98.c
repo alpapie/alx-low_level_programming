@@ -1,16 +1,39 @@
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - to tell if a random number is either - or +
+ *print_to_98 - prints all natural numbers from n to 98
  *
- * n is the random integer
- *
- * Return: the integer
+ *@n: parameter or number passed in the function
+ *Description:
  */
-int main(void)
-{
 
-return (0);
+void print_to_98(int n)
+{
+if (n <= 98)
+{
+	while (n <= 98)
+	{
+		printf("%d", n);
+		if (n != 98)
+		{
+			printf(", ");
+		}
+		n++;
+	}
+	putchar('\n');
+}
+else
+{
+	while (n >= 98)
+	{
+		printf("%d", n);
+		if (n != 98)
+		{
+			printf(", ");
+		}
+		n--;
+	}
+	putchar('\n');
+}
 }

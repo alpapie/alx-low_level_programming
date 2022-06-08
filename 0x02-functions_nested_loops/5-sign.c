@@ -1,16 +1,27 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
- *
- * n is the random integer
- *
- * Return: the integer
+ * print_sign - prints the sign of variable passed
+ * @n: parameter passed in the function
+ * Description:
+ * Return: Always(0) Success
  */
-int main(void)
-{
 
-return (0);
+int print_sign(int n)
+{
+if (n > 0)
+{
+	_putchar('+');
+	return (1);
+}
+else if (n == 0)
+{
+	_putchar('0');
+	return (0);
+}
+else
+{
+	_putchar('-');
+	return (-1);
+}
 }

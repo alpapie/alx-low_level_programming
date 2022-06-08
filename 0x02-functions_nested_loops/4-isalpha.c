@@ -1,16 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - to tell if a random number is either - or +
- *
- * n is the random integer
- *
- * Return: the integer
+ * _isalpha - checks if the parameter is alphabet
+ *@c: character to be checked by function
+ * Description:
+ * Return: Always(0) Success
  */
-int main(void)
-{
 
-return (0);
+int _isalpha(int c)
+{
+if (c >= 64 && c <= 122)
+{
+	return (1);
+}
+else
+{
+	return (0);
+}
 }
