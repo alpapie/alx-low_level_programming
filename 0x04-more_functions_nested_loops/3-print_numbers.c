@@ -1,9 +1,15 @@
 #include "main.h"
 
 /**
- * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
- * Return: largest number
+ * print_numbers- prints all numbers from 0 to 9
  */
+void print_numbers(void)
+{
+int i;
+
+for (i = 0; i <= 9; i++)
+{
+	_putchar(i + '0');
+}
+_putchar('\n');
+}
