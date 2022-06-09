@@ -19,3 +19,4 @@ int print_sign(int n);
 int _abs(int);
 int _isupper(int c);
 int _isdigit(int c);
+int mul(int a, int b);
