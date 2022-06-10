@@ -2,24 +2,30 @@
 
 int main(void)
 {
-int i = 1, n=3;
-
-if (n > 0)
+int i=1, j,nbr , size=6;
+if (size > 0)
 {
-	while (i <= n)
-	{
-		int j = 1;
-
-		while (j < i)
-		{
-			putchar(' ');
-			j++;
-		}
-		putchar('\\');
-		putchar('\n');
-		i++;
-	}
+    for (; i <= size ; i++)
+    {
+		nbr=size - i;
+        while ( nbr >= 1)
+        {
+            putchar(' ');
+        	nbr--;
+        }
+        j=0;
+        while (j < i)
+        {
+            putchar('#');
+		    j++;
+        }
+	putchar('\n');
+    }
+    putchar('\n');
 }
-putchar('\n');
+else
+{
+    putchar('\n');
+}
 	
 }

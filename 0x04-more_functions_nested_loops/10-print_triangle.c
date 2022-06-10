@@ -9,6 +9,7 @@
 void print_triangle(int size)
 {
 int i=1, j,nbr ;
+
 if (size > 0)
 {
 	for (; i <= size ; i++)
@@ -16,21 +17,21 @@ if (size > 0)
 		nbr=size - i;
 		while ( nbr >= 1)
 		{
-			putchar(' ');
+			_putchar(' ');
 			nbr--;
 		}
 		j=0;
 		while (j < i)
 		{
-			putchar('#');
+			_putchar('#');
 			j++;
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 else
 {
-	putchar('\n');
+	_putchar('\n');
 }
 }
