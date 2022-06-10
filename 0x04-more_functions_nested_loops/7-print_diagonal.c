@@ -5,7 +5,6 @@
  * @n : The number of ' ' and '\' characters
  * Return: Void.
  */
-
 void print_diagonal(int n)
 {
 int i = 0, j;
@@ -27,6 +26,6 @@ if (n > 0)
 }
 else
 {
-	_putchar('\n'); 
+	_putchar('\n');
 }
 }
