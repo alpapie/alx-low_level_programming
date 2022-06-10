@@ -2,7 +2,7 @@
 
 int main(void)
 {
-int i=1, j,nbr , size=6;
+int i=1, j,nbr , size=19;
 if (size > 0)
 {
     for (; i <= size ; i++)
@@ -21,7 +21,6 @@ if (size > 0)
         }
 	putchar('\n');
     }
-    putchar('\n');
 }
 else
 {
