@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *more_numbers - returns the largest of 3 numbers
+ *more_numbers - prints all numbers from 0 to 14 for 10 times
  */
 
 void more_numbers(void)
