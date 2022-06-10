@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_square(- Print line dependent on the input
- * @size :the size of the square
+ * print_square - Print diagonal depending on the input
+ * @size : The size of the sqaure '#'
  * Return: Void.
  */
 
 void print_square(int size)
 {
-if(size > 0)
+if (size > 0)
 {
 	int i = 0, j;
 
