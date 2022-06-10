@@ -12,10 +12,10 @@ if (size > 0)
 {
 	int i = 0, j;
 
-	while(i < size)
+	while (i < size)
 	{
 		j = 0;
-		while(j < size)
+		while (j < size)
 		{
 			_putchar('#');
 			j++;
