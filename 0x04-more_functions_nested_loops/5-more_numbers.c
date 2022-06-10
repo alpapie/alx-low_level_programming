@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_most_numbers - returns the largest of 3 numbers
+ *more_numbers - returns the largest of 3 numbers
  */
 
 void more_numbers(void)
