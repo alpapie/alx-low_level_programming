@@ -14,7 +14,7 @@ if (n > 0)
 {
 	while (i < n)
 	{
-		int j = 1;
+		int j = 0;
 
 		while (j < i)
 		{
