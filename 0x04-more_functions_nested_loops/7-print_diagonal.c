@@ -12,7 +12,7 @@ int i = 1;
 
 if (n > 0)
 {
-	while (i <= n)
+	while (i < n)
 	{
 		int j = 1;
 

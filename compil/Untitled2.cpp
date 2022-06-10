@@ -2,7 +2,7 @@
 
 int main(void)
 {
-int i = 1, n=4;
+int i = 1, n=3;
 
 if (n > 0)
 {
