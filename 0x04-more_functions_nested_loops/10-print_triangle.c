@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - Print line dependent onv the input
- * @size : The number of '_' characters hahs
+ * @size : The number of '#' characters hahs
  * Return: Void.
  */
 
