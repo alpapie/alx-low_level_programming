@@ -26,5 +26,9 @@ if (n > 0)
 		i++;
 	}
 }
+else
+{
+_putchar('\n');
+}
 _putchar('\n');
 }
