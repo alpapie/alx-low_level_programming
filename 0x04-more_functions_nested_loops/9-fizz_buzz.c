@@ -10,7 +10,7 @@ int main(void)
 {
 int i, end = 99;
 
-or (i = 1; i <= end; i++)
+for (i = 1; i <= end; i++)
 {
 	if (i % 15 == 0)
 	{
