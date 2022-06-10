@@ -2,13 +2,23 @@
 
 int main(void)
 {
-int n=10;
-int i=1;
+int i = 1, n=4;
 
-while (i <= n)
+if (n > 0)
 {
-	putchar('_');
-	i++;
+	while (i <= n)
+	{
+		int j = 1;
+
+		while (j < i)
+		{
+			putchar(' ');
+			j++;
+		}
+		putchar('\\');
+		putchar('\n');
+		i++;
+	}
 }
 putchar('\n');
 	

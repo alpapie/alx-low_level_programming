@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal- Print line dependent on the input
- * @n : The number of '_' characters
+ * @n : The number of ' ' and '\' characters
  * Return: Void.
  */
 
@@ -15,8 +15,8 @@ if (n > 0)
 	while (i <= n)
 	{
 		int j = 1;
-        
-		while (j <= i)
+
+		while (j < i)
 		{
 			_putchar(' ');
 			j++;
