@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - Print line dependent on the input
+ * print_triangle - Print line dependent onv the input
  * @size : The number of '_' characters
  * Return: Void.
  */
