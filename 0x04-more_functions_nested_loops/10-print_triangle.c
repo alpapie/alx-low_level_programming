@@ -1,32 +1,36 @@
 #include "main.h"
 
 /**
- * print_line - Print line dependent on the input
- * @n : The number of '_' characters
+ * print_triangle - Print line dependent on the input
+ * @size : The number of '_' characters
  * Return: Void.
  */
 
 void print_triangle(int size)
 {
-int i=0, j=1, nbr;
+int i=1, j,nbr ;
 if (size > 0)
 {
-    for (;i <= size ;i++)
-    {
-
-        while (size -j > 0)
-        {
-            _putchar(' ')
-        }
-        while (j < size)
-        {
-             _putchar('#')
-        }
-    }
-    _putchar('\n');
+	for (; i <= size ; i++)
+	{
+		nbr=size - i;
+		while ( nbr >= 1)
+		{
+			putchar(' ');
+			nbr--;
+		}
+		j=0;
+		while (j < i)
+		{
+			putchar('#');
+			j++;
+		}
+		putchar('\n');
+	}
+	putchar('\n');
 }
 else
 {
-    _putchar('\n');
+	putchar('\n');
 }
 }
