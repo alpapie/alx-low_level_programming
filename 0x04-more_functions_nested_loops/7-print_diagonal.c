@@ -15,7 +15,6 @@ if (n > 0)
 	while (i < n)
 	{
 		j = 0;
-
 		while (j < i)
 		{
 			_putchar(' ');
