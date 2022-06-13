@@ -11,7 +11,7 @@
 void print_rev(char *s)
 {
 int i=strlen(s)-1;
-char *reverse;
+
 for (; i >= 0; i--)
 {
 	if (s[i] == '\0')
