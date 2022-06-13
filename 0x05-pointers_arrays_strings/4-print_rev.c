@@ -10,11 +10,6 @@
 
 void print_rev(char *s)
 {
-int i=strlen(s)-1;
-char *reverse;
-for (; i >= 0; i--)
-{
-	reverse[i] = s[i];
-}
-puts(reverse);
+strrev(s)
+puts(s)
 }
