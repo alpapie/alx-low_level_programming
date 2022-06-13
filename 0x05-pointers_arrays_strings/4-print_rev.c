@@ -10,7 +10,7 @@
 
 void print_rev(char *s)
 {
-int i=lenth(s)-1;
+int i=strlen(s)-1;
 char *reverse;
 for (; i >= 0; i--)
 {
