@@ -14,8 +14,11 @@ int i = 0;
 
 for (; i < n; i++)
 {
-printf("%d", a[i]);
-printf(", ");
+	printf("%d", a[n]);
+if (i < n - 1)
+{
+	printf(", ");
+}
 }
 printf("\n");
 }
