@@ -13,7 +13,7 @@ int i = strlen(str) / 2 ,lenn = strlen(str);
 
 if (i%2!=0)
 {
-	i = i + 1
+	i = i + 1;
 }
 for (; i < lenn; i++)
 {
