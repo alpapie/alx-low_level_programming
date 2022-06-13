@@ -10,6 +10,15 @@
 
 void print_rev(char *s)
 {
-strrev(s);
-puts(s);
+int i=strlen(s)-1;
+char *reverse;
+for (; i >= 0; i--)
+{
+	if (s[i] == '\0')
+	{
+        break;
+	}
+	puts(s[i]);
+}
+_putchar('\n');
 }
