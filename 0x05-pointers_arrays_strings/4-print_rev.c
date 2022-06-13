@@ -18,7 +18,7 @@ for (; i >= 0; i--)
 	{
         break;
 	}
-	puts(s[i]);
+	_putchar(s[i]);
 }
 _putchar('\n');
 }
