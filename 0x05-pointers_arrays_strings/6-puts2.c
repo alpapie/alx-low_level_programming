@@ -12,7 +12,7 @@ void puts2(char *str)
 int i = 0;
 int lenn = strlen(str);
 
-for (; i >= 0; i++)
+for (; i < lenn; i++)
 {
 	if (str[i] == '\0')
 	{
