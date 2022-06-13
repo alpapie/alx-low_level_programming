@@ -14,11 +14,11 @@ int lenn = strlen(str);
 
 for (; i >= 0; i++)
 {
-	if (s[i] == '\0')
+	if (str[i] == '\0')
 	{
 		break;
 	}
-	_putchar(s[i]);
+	_putchar(str[i]);
 	_putchar('\n');
 }
 }
