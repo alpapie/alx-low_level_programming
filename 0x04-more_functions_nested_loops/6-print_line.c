@@ -1,8 +1,22 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints all aphabets in lowercase
- *
- *
- *
+ * print_line - Print line dependent on the input
+ * @n : The number of '_' characters
+ * Return: Void.
  */
+
+void print_line(int n)
+{
+int i = 1;
+
+if (n > 0)
+{
+	while (i <= n)
+	{
+		_putchar('_');
+		i++;
+	}
+}
+_putchar('\n');
+}
