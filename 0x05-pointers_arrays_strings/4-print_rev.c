@@ -10,6 +10,6 @@
 
 void print_rev(char *s)
 {
-strrev(s)
-puts(s)
+strrev(s);
+puts(s);
 }
