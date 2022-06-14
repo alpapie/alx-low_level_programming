@@ -17,20 +17,15 @@ srand((unsigned int)(time(NULL)));
 char numbers[] = "0123456789";
 char letter[] = "abcdefghijklmnoqprstuvwyzx";
 
-// Array of capital alphabets
+
 char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 
-// Array of all the special symbols
 char symbols[] = "!@#$^&*?";
 
-// Stores the random password
 char password[N];
 
-// To select the randomizer
-// inside the loop
 randomizer = rand() % 4;
 
-// Iterate over the range [0, N]
 for (i = 0; i < N; i++) {
 
     if (randomizer == 1) {
