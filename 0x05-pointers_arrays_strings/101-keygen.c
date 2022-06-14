@@ -1,36 +1,36 @@
-# inclure  < stdio.h >
-# inclure  < stdlib.h >
-# inclure  < heure.h >
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-/* *
-* main - programme qui génère des valides aléatoires
-* mots de passe pour le programme 101-crackme
-*
-* Retour : Toujours 0 (Succès)
+/**
+ * main - program that generates random valid
+ * passwords for the program 101-crackme
+ *
+ * Return: Always 0 (Success)
  */
 
-int  principal ( vide )
+int main(void)
 {
-	int je, somme, n ;
-	int pass[ 100 ] ;
+	int i, sum, n;
+	int pass[100];
 
-	somme = 0 ;
+	sum = 0;
 
-	srand ( heure ( NULL ));
+	srand(time(NULL));
 
-	pour (i = 0 ; i < 100 ; i++)
+	for (i = 0; i < 100; i++)
 	{
-		passe[i] = rand () % 78 ;
-		somme += (pass[i] + ' 0 ' );
-		putchar (pass[i] + ' 0 ' );
-		si (( 2772 - somme) - ' 0 ' < 78 )
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		putchar(pass[i] + '0');
+		if ((2772 - sum) - '0' < 78)
 		{
-			n = 2772 - somme - ' 0 ' ;
-			somme += n ;
-			putchar (n + ' 0 ' );
-			casser ;
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
 		}
 	}
 
-	retour ( 0 );
+	return (0);
 }
