@@ -14,6 +14,6 @@ int num;
 
 srand(time(0));
 num = rand();
-printf("%i\n", num);
+_putchar("Tada! Congrats")
 return (0);
 }
