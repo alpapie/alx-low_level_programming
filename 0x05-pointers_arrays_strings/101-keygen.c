@@ -5,7 +5,6 @@
 
 /**
  *keyg -create a ramdom password
- * @n: first integer
  * Return: n
  */
 
@@ -18,4 +17,3 @@ num = rand();
 printf("%i\n", num);
 return (0);
 }
-
