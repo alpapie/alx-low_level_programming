@@ -4,7 +4,8 @@
 /**
  * _atoi - returns the largest of 3 numbers
  * @s: first integer
- * Return:int
+ * Return: 1 if c is uppercase, 0 otherwise
+ */
 
 int _atoi(char *s)
 {
