@@ -1,53 +1,36 @@
-#include "main.h"
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+# inclure  < stdio.h >
+# inclure  < stdlib.h >
+# inclure  < heure.h >
 
-/**
- *keyg -create a ramdom password
- * Return: n
+/* *
+* main - programme qui génère des valides aléatoires
+* mots de passe pour le programme 101-crackme
+*
+* Retour : Toujours 0 (Succès)
  */
 
-int main(void)
+int  principal ( vide )
 {
-int i = 0;
-int randomizer = 0;
+	int je, somme, n ;
+	int pass[ 100 ] ;
 
-srand((unsigned int)(time(NULL)));
-char numbers[] = "0123456789";
-char letter[] = "abcdefghijklmnoqprstuvwyzx";
+	somme = 0 ;
 
+	srand ( heure ( NULL ));
 
-char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
+	pour (i = 0 ; i < 100 ; i++)
+	{
+		passe[i] = rand () % 78 ;
+		somme += (pass[i] + ' 0 ' );
+		putchar (pass[i] + ' 0 ' );
+		si (( 2772 - somme) - ' 0 ' < 78 )
+		{
+			n = 2772 - somme - ' 0 ' ;
+			somme += n ;
+			putchar (n + ' 0 ' );
+			casser ;
+		}
+	}
 
-char symbols[] = "!@#$^&*?";
-
-char password[N];
-
-randomizer = rand() % 4;
-
-for (i = 0; i < N; i++) {
-
-    if (randomizer == 1) {
-        password[i] = numbers[rand() % 10];
-        randomizer = rand() % 4;
-        printf("%c", password[i]);
-    }
-    else if (randomizer == 2) {
-        password[i] = symbols[rand() % 8];
-        randomizer = rand() % 4;
-        printf("%c", password[i]);
-    }
-    else if (randomizer == 3) {
-        password[i] = LETTER[rand() % 26];
-        randomizer = rand() % 4;
-        printf("%c", password[i]);
-    }
-    else {
-        password[i] = letter[rand() % 26];
-        randomizer = rand() % 4;
-        printf("%c", password[i]);
-    }
-}
-return (0);
+	retour ( 0 );
 }
