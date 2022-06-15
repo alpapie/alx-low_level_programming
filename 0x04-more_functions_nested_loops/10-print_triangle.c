@@ -5,7 +5,6 @@
  * @size : The number of '#' characters hahs
  * Return: Void.
  */
-
 void print_triangle(int size)
 {
 int i, j, nbr;
