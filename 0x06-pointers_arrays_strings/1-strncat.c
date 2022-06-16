@@ -1,9 +1,17 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
- *reset_to_98 - returns the largest of 3 numbers
- * @n: first integer
- * Return: n
+ *_strncat - returns the largest of 3 numbers
+ * @dest: first integer
+ * @src: second integer
+ * @n: third integer
+ * Return: dest
  */
 
-
+char *_strncat(char *dest, char *src, int n)
+{
+strcat(dest, src[n]);
+return (dest);
+}
