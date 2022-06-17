@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  *rot13 - returns the largest of 3 numbers
  * @str: first integer
@@ -8,22 +8,21 @@
 
 char *rot13(char *str)
 {
-int i = 0;
-int k;
+int i;
+int j;
+char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-char alphabet[] =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-char s1[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-
-while (str[i] != '\0')
+for (i = 0; s[i] != '\0'; i++)
 {
-	for (k = 0; k < 52; k++)
+	for (j = 0; j < 52; j++)
 	{
-		if (str[i] == alphabet[k])
+		if (s[i] == data1[j])
 		{
-			str[i] = s1[k];
+			s[i] = datarot[j];
+			break;
 		}
 	}
-	i++;
 }
-return (str);
+return (s);
 }
