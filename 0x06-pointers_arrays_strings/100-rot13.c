@@ -14,13 +14,16 @@ int k;
 char alphabet[] =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char s1[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-for (; str[i] != '\0'; i++)
+while (str[i] != '\0')
 {
-	for (k = 0; k <= 51; k++)
+	for (k = 0; k < 52; k++)
 	{
-		if (alphabet[k] == str[i])
+		if (str[i] == alphabet[k])
+		{
 			str[i] = s1[k];
+		}
 	}
+	i++;
 }
 return (str);
 }
