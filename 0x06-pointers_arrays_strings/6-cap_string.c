@@ -2,14 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *_strncpy - returns the largest of 3 numbers
- * @dest: first integer
- * @src: second integer
- * @n: third integer
+ *cap_string - returns the largest of 3 numbers
+ * @s: first integer
  * Return: n
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 int i = 0;
 
