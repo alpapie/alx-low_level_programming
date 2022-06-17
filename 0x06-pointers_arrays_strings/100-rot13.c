@@ -2,11 +2,11 @@
 #include <stdio.h>
 /**
  *rot13 - returns the largest of 3 numbers
- * @str: first integer
+ * @s: first integer
  * Return: n
  */
 
-char *rot13(char *str)
+char *rot13(char *s)
 {
 int i;
 int j;
