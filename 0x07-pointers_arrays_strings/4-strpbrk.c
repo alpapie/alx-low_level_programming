@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_strchr - returns the largest of
+ *_strpbrk - returns the largest of
  * @s: first integer
- * @c: second integer
+ * @accept: second integer
  * Return: dest
  */
 
