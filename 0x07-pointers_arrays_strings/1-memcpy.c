@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- *_strcat - returns the largest of 3 numbers
+ *_strcat - returns the largest of
  * @dest: first integer
  * @src: second integer
  * @n: third integer
