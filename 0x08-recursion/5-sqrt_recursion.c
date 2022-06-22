@@ -1,3 +1,7 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * _sqrt_recursion - main funct
  * @n: int n
