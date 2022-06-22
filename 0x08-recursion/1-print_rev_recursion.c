@@ -7,13 +7,12 @@
  * @s: pointer to char param
  * Return: *s
  */
+
 void _print_rev_recursion(char *s)
 {
-int i=strlen(s);
-
-for (i=strlen(s); i>0; i--)
+if (*s)
 {
-    _putchar(s[i]);
+    _print_rev_recursion(s + 1);
+    _putchar(*s);
 }
-_putchar('\n');
 }
