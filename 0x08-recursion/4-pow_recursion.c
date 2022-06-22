@@ -4,7 +4,8 @@
 
 /**
  * _pow_recursion - ironnou
- * @s: pointer to char param
+ * @x: pointer to char param
+ * @y: allao
  * Return: *s
  */
 
@@ -16,12 +17,10 @@ if (y < 0)
 }
 else if (y == 0)
 {
-	return (1)
+	return (1);
 }
 else
 {
-    int powe=0;
-    
-	return (x * _pow_recursion(x,y - 1))
+	return (x * _pow_recursion(x,y - 1));
 }
 }
