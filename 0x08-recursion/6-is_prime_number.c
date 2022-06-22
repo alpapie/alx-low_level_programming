@@ -10,7 +10,7 @@
 
 int is_prime_number(int n)
 {
-    int i = n / 2;
+int i = n / 2;
 
 if (i == 1)
 {
@@ -25,4 +25,5 @@ else
 	i = i -1; 
 	is_prime_number(n);
 }
+
 }
