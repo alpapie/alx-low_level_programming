@@ -7,9 +7,10 @@
  * @argv: arr args
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
-int i=0, mult;
+int i = 0;
 
 if (argc - 1 > 2)
 {
