@@ -10,8 +10,6 @@
 
 int main(int argc, char *argv[])
 {
-int i = 0;
-
 if (argc - 1 > 2)
 {
 	return (atoi(argv[1]) * atoi(argv[2]));
