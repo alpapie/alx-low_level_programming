@@ -48,7 +48,6 @@ else
 	{
 		rendu += som/1;
 	}
-
 }
 printf("%d\n",rendu);
 return (0);
