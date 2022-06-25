@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- *main - ironnou
- * @argc: pointer to char param
- * @argv[]: second variable
- * print the name of the function
+ * main - function
+ * @argc: offset count
+ * @argv: offset value
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
