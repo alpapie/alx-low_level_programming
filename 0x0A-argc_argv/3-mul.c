@@ -15,6 +15,7 @@ int mult;
 if (argc - 1 > 2)
 {
 	mult = atoi(argv[1]) * atoi(argv[2]);
+    printf("%d\n", mult);
 }
 else
 {
