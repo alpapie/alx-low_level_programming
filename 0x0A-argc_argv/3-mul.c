@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-int mult = 1;
+int i, mult = 1;
 
 if (argc - 1 >= 2)
 {
