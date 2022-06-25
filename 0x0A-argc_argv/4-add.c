@@ -25,14 +25,6 @@ for (; i <= argc -1; i++)
 		return (1);
     }
 }
-if (sum > 0)
-{
-    printf("%d\n", sum);
-    return (0);
-}
-else
-{
-   return (0); 
-}
-
+printf("%d\n", sum);
+return (sum);
 }
