@@ -17,9 +17,9 @@ if (argc - 1 != 1)
 	printf("Error\n");
 	return (1);
 }
-if (som < 0)
+if (som <= 0)
 {
-	printf("%d\n",rendu) ;
+	printf("%d\n",rendu , som);
 	return (0);
 }
 else
