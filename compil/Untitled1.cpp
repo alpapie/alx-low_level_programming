@@ -1,10 +1,18 @@
 #include <stdio.h>
-#include <string.h>
 
-int main(void)
+void _print_rev_recursion(char *s)
 {
-	char *s="akoaooaoieie";
-	strrev(*s);
-    puts(*s);
-	return (0);
+if (*s)
+{
+	
+	putchar(*s);
 }
+}
+
+int  main() {
+char *s="alpapire is the bos";
+
+	_print_rev_recursion(s);
+
+}
+
