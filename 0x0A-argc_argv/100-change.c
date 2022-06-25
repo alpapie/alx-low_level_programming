@@ -7,6 +7,7 @@
  * @argv: arr args
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 int som = atoi(argv[1]), rendu = 0;
@@ -19,6 +20,7 @@ if (argc - 1 != 1)
 if (som < 0)
 {
     printf("%d\n",rendu , som);
+    return (0)
 }
 else
 {
