@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * main - prints all arguments it receives
@@ -7,15 +8,16 @@
  * @argv: arr args
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 int i = 1, sum = 0;
 
 for (; i < argc -1; i++)
 {
-    if (atoi(arg[i]))
+    if (atoi(argv[i]))
     {
-        sum += atoi(arg[i]);
+        sum += atoi(argv[i]);
     }
     else
     {
