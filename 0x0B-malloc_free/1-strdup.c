@@ -8,20 +8,35 @@
  * Return: 0
  */
 
+#include <stdlib.h>
+
+/**
+ * _strdup - copy
+ * @str: pointer to string
+ * Return: pointer
+ */
+
 char *_strdup(char *str)
 {
-    char *p;
-    unsigned int i;
+	char *s;
+	int i = 0, j;
 
-    if (str == NULL)
-    return (0);
-    p = malloc((_strlen(str) + 1) * sizeof(char));
-    if (p == NULL)
-    return (0);
-    for (i = 0; str[i] != '\0'; i++)
-    {
-        p[i] = str[i];
-    }
-    p[i] = '\0';
-    return (p);
+	if (!str)
+		return (NULL);
+
+	while (*(str + i))
+		i++;
+	i++;
+	s = malloc(sizeof(char) * i);
+
+	if (s == NULL)
+	{
+		return (NULL);
+	}
+
+	for (j = 0; j <= i; j++)
+	{
+		s[j] = str[j];
+	}
+	return (s);
 }
