@@ -5,8 +5,12 @@
  * @str: pointer to string params
  * Return: char
  */
-char dddbb(char **f, char *str, int i , int j,int len,int k, int count, char *col)
+char dddbb(char **f, char *str, int i , int j, int len,int k, int count, char *col)
 {
+    f = malloc(sizeof(char *) * count);
+	if (!f)
+		return (NULL);
+	i = 0;
     while (*str)
 	{
 		while (*str == ' ' && *str)
@@ -53,10 +57,7 @@ char **strtow(char *str)
 	if (count == 0)
 		return (NULL);
 	count += 1;
-	f = malloc(sizeof(char *) * count);
-	if (!f)
-		return (NULL);
-	i = 0;
+
 	f=dddbb(f, str, i, j, len, k, count, col);
 	return (f);
 } /*yes*/
