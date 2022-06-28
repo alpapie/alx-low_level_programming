@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - prints its name, followed by a new line
- * @argc: n args
- * @argv: arr args
+ * create_array - prints its name, followed by a new line
+ * @c: n args
+ * @size: arr args
  * Return: 0
  */
 
@@ -16,6 +16,7 @@ if (size == 0)
 }
 else
 {
-	return malloc(size * sizeof(char));
+    c = malloc(size * sizeof(char))
+	return ;
 }
 }
