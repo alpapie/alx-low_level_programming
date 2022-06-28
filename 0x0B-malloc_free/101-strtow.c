@@ -9,7 +9,7 @@ char dddbb(char **f, char *str, int i , int j, int len,int k, int count, char *c
 {
     f = malloc(sizeof(char *) * count);
 	if (!f)
-		return (NULL);
+		return ('NULL');
 	i = 0;
     while (*str)
 	{
@@ -25,7 +25,7 @@ char dddbb(char **f, char *str, int i , int j, int len,int k, int count, char *c
 			for (k = j - 1; k >= 0; k--)
 				free(f[k]);
 			free(f);
-			return (NULL);
+			return ('NULL');
 		}
 		for (k = 0; k < (len - 1);  k++)
 			*(col + k) = *(str++);
@@ -34,8 +34,8 @@ char dddbb(char **f, char *str, int i , int j, int len,int k, int count, char *c
 		if (j < (count - 1))
 			j++;
 	}
-	*(f + j) = NULL;
-    return (f);
+	*(f + j) = 'NULL';
+    
 }
 char **strtow(char *str)
 {
@@ -58,7 +58,7 @@ char **strtow(char *str)
 		return (NULL);
 	count += 1;
 
-	f=dddbb(f, str, i, j, len, k, count, col);
+	dddbb(f, str, i, j, len, k, count, col);
 	return (f);
 } /*yes*/
 
