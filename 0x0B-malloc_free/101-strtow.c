@@ -35,7 +35,7 @@ char dddbb(char **f, char *str, int i , int j, int len,int k, int count, char *c
 			j++;
 	}
 	*(f + j) = 'NULL';
-    
+    return (f);
 }
 char **strtow(char *str)
 {
@@ -58,7 +58,7 @@ char **strtow(char *str)
 		return (NULL);
 	count += 1;
 
-	dddbb(f, str, i, j, len, k, count, col);
+	f=dddbb(f, str, i, j, len, k, count, col);
 	return (f);
 } /*yes*/
 
