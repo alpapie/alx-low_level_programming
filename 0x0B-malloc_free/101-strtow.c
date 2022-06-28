@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <stdlib.h>
 /**
- * strtow - char
- * @str: pointer to string params
+ * shortf - char
+ * @f: pointer to string params
+ * @k:jhsh
+ * @j:
  * Return: char
  */
 
@@ -14,6 +16,13 @@ int* shortf(char **f, int k, int j)
 	free(f);
 	return (NULL);
 }
+
+/**
+ * strtow - char
+ * @str: pointer to string params
+ * Return: char
+ */
+
 char **strtow(char *str)
 {
 	int i = 0, j = 0, k = 0, len = 0, count = 0;
