@@ -57,7 +57,7 @@ char **strtow(char *str)
 	if (!f)
 		return (NULL);
 	i = 0;
-	f=dddbb(f, str, i, j, len, k, count, col)
+	f=dddbb(f, str, i, j, len, k, count, col);
 	return (f);
 } /*yes*/
 
