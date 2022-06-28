@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdlib.h>
 /**
  * strtow - char
  * @str: pointer to string params
