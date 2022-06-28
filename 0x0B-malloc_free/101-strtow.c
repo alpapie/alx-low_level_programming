@@ -6,6 +6,13 @@
  * Return: char
  */
 
+
+int shortf(char **f, int k, int j){
+    for (k = j - 1; k >= 0; k--)
+        free(f[k]);
+    free(f);
+    return (NULL);
+}
 char **strtow(char *str)
 {
 	int i = 0, j = 0, k = 0, len = 0, count = 0;
@@ -40,10 +47,7 @@ char **strtow(char *str)
 		col = malloc(sizeof(char) * len);
 		if (!col)
 		{
-			for (k = j - 1; k >= 0; k--)
-				free(f[k]);
-			free(f);
-			return (NULL);
+            shortf(f,k,j);
 		}
 		for (k = 0; k < (len - 1);  k++)
 			*(col + k) = *(str++);
