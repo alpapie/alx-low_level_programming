@@ -57,7 +57,7 @@ char **strtow(char *str)
 		col = malloc(sizeof(char) * len);
 		if (!col)
 		{
-			shortf(f, k , j);
+			shortf(f, k, j);
 		}
 		for (k = 0; k < (len - 1);  k++)
 			*(col + k) = *(str++);
