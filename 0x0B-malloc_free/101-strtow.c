@@ -5,10 +5,19 @@
  * @str: pointer to string params
  * Return: char
  */
-
+void ddtte(int count, int i, char **f)
+{
+    if (count == 0)
+		return (NULL);
+	count += 1;
+	f = malloc(sizeof(char *) * count);
+	if (!f)
+		return (NULL);
+	i = 0;
+}
 char **strtow(char *str)
 {
-	int i = 0, j = 0, k = 0,len = 0, count = 0;
+	int i = 0, j = 0, k = 0, len = 0, count = 0;
 	char **f, *col;
 
 	if (!str || !*str)
@@ -22,13 +31,7 @@ char **strtow(char *str)
 		}
 		i++;
 	}
-	if (count == 0)
-		return (NULL);
-	count += 1;
-	f = malloc(sizeof(char *) * count);
-	if (!f)
-		return (NULL);
-	i = 0;
+	ddtte(int count, int i, char **f );
 	while (*str)
 	{
 		while (*str == ' ' && *str)
