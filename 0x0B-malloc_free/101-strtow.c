@@ -12,7 +12,7 @@
 int* shortf(char **f, int k, int j)
 {
 	for (k = j - 1; k >= 0; k--)
-    	free(f[k]);
+		free(f[k]);
 	free(f);
 	return (NULL);
 }
