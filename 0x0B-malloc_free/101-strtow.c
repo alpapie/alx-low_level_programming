@@ -4,7 +4,7 @@
  * shortf - char
  * @f: pointer to string params
  * @k:jhsh
- * @j:
+ * @j:vvhuiii
  * Return: char
  */
 
