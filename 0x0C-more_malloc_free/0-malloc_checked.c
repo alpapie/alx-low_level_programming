@@ -13,9 +13,6 @@ void *p;
 
 p = malloc(b);
 if (p == NULL)
-{
-    printf("Error: malloc failed\n");
-   returnn(98);
-}
+    exit(98);
 return (p);
 }
