@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * create_array - prints its name, followed by a new line
- * @c: n args
- * @size: arr args
+ * string_nconcat - prints its name, followed by a new line
+ * @s1: n args
+ * @s2: arr args
+ * @n: n args
  * Return: 0
  */
 
