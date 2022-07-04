@@ -1,6 +1,7 @@
-#ifndef FILE_MACRO
-#define FILE_MACRO
+#ifndef FILE_PI
+#define FILE_PI
 
 #define PI 3.14159265359
+
 
 #endif
